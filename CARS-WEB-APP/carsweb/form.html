@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars Web | Add</title>
+    <link rel="stylesheet" href="/CARS-WEB-APP/carsweb/style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Cars Web App | Add</h1>
+        <img src="./cars.png" alt="" />
+      </div>
+      <a href="./index.html">
+        <button class="add">Voltar para lista de carros</button>
+      </a>
+      <hr />
+    </header>
+
+    <main>
+        <div class="form-container">
+            <form>
+                <input class="name" required type="text" name="name" placeholder="Nome">
+                <input class="brand" required type="text" name="brand" placeholder="Marca">
+                <input class="color" required type="text" name="color" placeholder="Cor">
+                <input class="year" required type="text" name="year" placeholder="Ano">
+                <input class="day_price" required type="number" name="day_price" placeholder="Preço por Dia">
+                <input class="chassi" required type="text" name="chassi" placeholder="Chassi">
+                <input class="plate" required type="text" name="plate" placeholder="Placa">
+                <input class="description" name="description" placeholder="Descrição"></input>
+                <button class="save" type="submit">Salvar</button>
+            </form>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

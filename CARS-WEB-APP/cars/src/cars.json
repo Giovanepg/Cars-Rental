@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Uno",
+    "brand": "Fiat",
+    "color": "Branco",
+    "year": "2000",
+    "day_price": "50",
+    "chassi": "POIJSPJDF57887",
+    "plate": "LIJF686",
+    "description": "Com escada",
+    "status": "unavailable"
+  }
+]
